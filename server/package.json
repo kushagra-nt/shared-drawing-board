@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.4"
+  }
+}
